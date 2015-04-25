@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.contenttypes import generic
-from django.contrib.comments.models import Comment
+from django_comments import Comment
 
 from contacts.models import Company, Person, Group, PhoneNumber, EmailAddress, InstantMessenger, WebSite, StreetAddress, SpecialDate, Location
 
